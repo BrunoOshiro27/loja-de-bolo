@@ -1,0 +1,64 @@
+body{
+    background-color: #F8EBD8;
+    font-size: 20px;
+    background-image: url(images/fundao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 70px;
+}
+#insta{
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
+#maria{
+    display: flex;
+    justify-content: flex-end;
+}
+.items{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center ;
+    text-align: center;
+    gap: 20px;
+    padding: 5px;
+    
+}
+.card{
+    
+    height: 180px;
+    width:120px;
+    padding: 10px;
+    background-color: #D89E9A;
+    border-radius: 10px;
+    
+    
+}
+.mais{
+    background-color: #700045;
+}
+.maisv{
+    background-image: url(images/flowers-g0f5d44aae_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    border-radius: 20px;
+}
+
+img{
+    height: 80px;
+}
+#cozinheira{
+    height: 160px;
+    width: 140px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
